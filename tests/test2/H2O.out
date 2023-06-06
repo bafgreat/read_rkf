@@ -1,0 +1,1700 @@
+
+
+ Parallel Execution: Process Information
+ ==============================================================================
+ Rank   Node Name                              NodeID   MyNodeRank  NodeMaster
+    0   uc2n322.localdomain                       0          0          0
+ ==============================================================================
+
+
+
+ *******************************************************************************
+ *                                                                             *
+ *  --------------------------------                                           *
+ *   Amsterdam Modeling Suite (AMS)              2021.105                      *
+ *  --------------------------------                                           *
+ *                                               r98925 2021-11-25             *
+ *                                                                             *
+ *                                                                             *
+ *                              =================                              *
+ *                              |               |                              *
+ *                              |     A M S     |                              *
+ *                              |               |                              *
+ *                              =================                              *
+ *                                                                             *
+ *                                                                             *
+ *   Online information and documentation:  https://www.scm.com/support/       *
+ *   E-mail:  support@scm.com   info@scm.com                                   *
+ *                                                                             *
+ *   Scientific publications using AMS results must be properly referenced     *
+ *   See the User Manuals (or the web site) for recommended citations          *
+ *   The terms and conditions of the End User License Agreement apply to       *
+ *   the use of AMS, https://www.scm.com/license-terms/                        *
+ *                                                                             *
+ **********************  x86_64_linux_intel / intelmpi  ************************
+ 
+ Licensed to: Dr Matt Addicoat /  Department of Chemistry and Physics, Nottingham Trent University 2022-04-13 12:06:02
+ SCM User ID: u20241
+  
+ AMS 2021.105  RunTime: May25-2023 14:29:59  ShM Nodes: 1  Procs: 1
+
+ AMS jobname: ams
+ AMS jobid  : 513652742
+
+ Start   directory: /pfs/data5/home/kit/ifg/ho3047/Work/Nicho/MoleculeLibrary/H2O/
+ Results directory: /pfs/data5/home/kit/ifg/ho3047/Work/Nicho/MoleculeLibrary/H2O/ams.results/
+ Scratch directory: /home/kit/ifg/ho3047/src/ams_scratch/amstmp_ams_kid0.513652742/
+
+ RNG seed: -555599083 651484180 1893958563 -16402744 1975759426 810961394 398252420 -737962642
+       ***************************
+       *  GEOMETRY OPTIMIZATION  *
+       ***************************
+
+Optimization Method                    Quasi Newton
+Optimization Coordinates               Delocalized Coordinates
+Optimize lattice                       F
+ 
+ ------------------------------------------------------
+ Convergence criteria (Hartree,Angstrom)
+ ------------------------------------------------------
+ Maximum gradient               0.001000000000
+ Maximum rms gradient           0.000666666667
+ Maximum step allowed           0.010000000000
+ Maximum rms step allowed       0.006666666667
+ Maximum energy change allowe   0.000030000000
+ Maximum stress energy allowe   0.000500000000
+ 
+Initial model Hessian                  Automatic Hessian
+ 
+------------------------------------
+Quasi-Newton Optimizer Parameters
+------------------------------------
+Hessian Update Method                  BFGS
+Maximum number of steps                  250
+First GDIIS cycle                          0
+Maximum GDIIS vectors                      0
+Trust radius (bohr)                        0.200000
+Trust radius varies                        T
+Constraints converged at all steps         T
+Use projector                              T
+ 
+ Rigid motions settings for: old optimizer
+ Atomic rotations (x,y,z):     T T T
+ Atomic translations (x,y,z):  T T T
+ Tolerance:                   1.000000000000000E-006
+ 
+--------
+Geometry
+--------
+Formula: H2O
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1      O    -0.96043000     0.31733000     0.95703000
+      2      H     0.02890000     0.35500000     0.93659000
+      3      H    -1.24979000     1.14973000     0.50538000
+ 
+Total System Charge             0.00000
+ 
+
+
+
+                     *************************************************************************
+                     *  BAND 2021.105  RunTime: May25-2023 14:30:01  ShM Nodes: 1  Procs: 1  *
+                     *************************************************************************
+  
+
+-----------------
+Band Engine Input
+-----------------
+
+Basis
+Type TZ2P
+End
+XC
+MetaGGA SCAN
+DISPERSION GRIMME3 BJDAMP
+End
+BandStructure
+Enabled No
+End
+
+ Using automatic Hessian for delocalized coordinates.
+ Using the following basis set files:
+ 
+ O              : /home/kit/ifg/ho3047/src/ams2021.105/atomicdata/Band/TZ2P/O.1s
+ H              : /home/kit/ifg/ho3047/src/ams2021.105/atomicdata/Band/TZ2P/H
+
+ Settings for Grimme D3 dispersion correction
+
+      damping                        BJ
+      s6                          1.000
+      s8                          0.000
+      a1                          0.538
+      a2                          5.420
+
+ Other (technical) parameters
+
+      alpha                      14.000
+      version                         4
+ 
+
+
+
+ =====================
+ C O N F I N E M E N T
+ =====================
+  
+ Basis functions confinement radius        10.000
+ Width                                      1.000
+ use shared memory for sandwiching:  F
+
+
+
+ ===============================
+ M O D E L   P A R A M E T E R S
+ ===============================
+  
+ DENSITY FUNCTIONAL POTENTIAL (scf)
+    Meta-GGA:                          SCAN                                    == Not Default ==
+ DENSITY FUNCTIONAL ENERGY (post-scf)
+    Gradient Corrections:              Becke88 Perdew86 PW91x PW91c EV93x PW...== Not Default ==
+
+ SPIN  (restricted / unrestr.)
+    Molecule:                          Restricted                               
+
+ OTHER ASPECTS
+    Relativistic Corrections:          scalar (ZORA,APA)                        
+
+    Nuclear Charge Density Model:      Point Charge Nuclei                      
+
+
+
+ ========================
+ S. C. F.   O P T I O N S
+ ========================
+  
+
+ * DIIS settings info for DIRAC   *
+    Cond              0.1E+07
+    CLarge          20.00
+    CHuge           50.00
+    DiMix            1.00
+    IopPly              1
+    NCyDmp              5
+    IPrint              0
+    Adaptable           F
+    Method         diis                
+    Dimix Decay fac  1.00
+
+ * DIIS settings info for SCF     *
+    Cond              0.1E+07
+    CLarge          20.00
+    CHuge           20.00
+    DiMix            0.20
+    IopPly              1
+    NCyDmp              1
+    IPrint              0
+    Adaptable           T
+    Method         DIIS                
+    Dimix Decay fac  1.00
+ growth factor   1.10000000000000     
+ shrink factor  0.909090909100000     
+
+    Mix            0.0750
+    Degenerate          F
+    Edegen          1.0E-04
+    SCFRTX           9.90
+    Convrg          1.7E-06
+    Ncyclx            300
+ getinp: use Shared Memory T
+
+
+
+
+                             **  R A D I A L   F U N C T I O N S  **
+
+ TOTAL NR. OF TYPES OF ATOMS                              2
+
+
+
+
+                             ---------------------
+                                   T Y P E   1
+                             ---------------------
+
+ RADIAL POINTS                                         3000
+
+
+
+
+ ............................ D I R A C ................................
+
+ NUCLEAR CHARGE                                 8.0000               **>  O  <**
+ (POINT NUCLEUS)
+ VALENCE CHARGE                                 6.0000
+ NET CHARGE                                     0.0000
+
+ VALENCE ORBITALS INCLUDED IN THE CRYSTAL BASIS
+ NR. OF (RADIAL) CORE FUNCTIONS                 1
+ Radial grid       nr of points               3000
+                   range                      0.10E-05     0.10E+03
+  
+  ** SCF-FUNCTIONAL INFO **
+    ZORA
+    SCALAR
+  
+ Self consistent error   0.15E-08
+
+
+  Orbital    Q         E(a.u.)     E(eV)           <R>
+ -------------------------------------------------------------------
+  1S         2.00    -18.786612       -511.2097   0.201
+  2S         2.00     -0.873081        -23.7577   1.147
+  2P         4.00     -0.338119         -9.2007   1.264
+
+
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ targetR   1.26409834078628      expectR   1.26409834078627      sigma
+   1.12027798602495      diffuseFactor   1.00000000000000     
+
+ NR. OF RADIAL VALENCE ORBITALS                           8
+ NR. OF RADIAL CORE ORBITALS                              1
+ NR. OF RADIAL FIT FUNCTIONS                              0
+
+
+
+
+                             ---------------------
+                                   T Y P E   2
+                             ---------------------
+
+ RADIAL POINTS                                         3000
+
+
+
+
+ ............................ D I R A C ................................
+
+ NUCLEAR CHARGE                                 1.0000               **>  H  <**
+ (POINT NUCLEUS)
+ VALENCE CHARGE                                 1.0000
+ NET CHARGE                                     0.0000
+
+ VALENCE ORBITALS INCLUDED IN THE CRYSTAL BASIS
+ Radial grid       nr of points               3000
+                   range                      0.10E-05     0.10E+03
+  
+  ** SCF-FUNCTIONAL INFO **
+    ZORA
+    SCALAR
+  
+ Self consistent error   0.42E-08
+
+
+  Orbital    Q         E(a.u.)     E(eV)           <R>
+ -------------------------------------------------------------------
+  1S         1.00     -0.233474         -6.3532   1.673
+
+
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ targetR   1.67307201377750      expectR   1.67307201377750      sigma
+   1.48272146683109      diffuseFactor   1.00000000000000     
+
+ NR. OF RADIAL VALENCE ORBITALS                           5
+ NR. OF RADIAL CORE ORBITALS                              0
+ NR. OF RADIAL FIT FUNCTIONS                              0
+
+
+
+ ======================================================
+ R A N G E S    F O R    A T O M I C    O R B I T A L S
+ ======================================================
+  
+   --------------------------------------------------------------------------------
+                            valence            core valence kinetic    core kinetic
+   --------------------------------------------------------------------------------
+
+             Cutoff       1.000E-06       1.000E-06       1.000E-06       1.000E-06
+   --------------------------------------------------------------------------------
+ 
+   --------------------------------------------------------------------------------
+               Type         valence            core valence kinetic    core kinetic
+   --------------------------------------------------------------------------------
+                  O           13.75            2.75           14.09            2.78
+                  H           15.74            0.00           16.13            0.00
+   --------------------------------------------------------------------------------
+ 
+
+
+
+ ====================
+ R U N    C O N F I G
+ ====================
+  
+ 
+ Use Symmetry  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate gradient of basis  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate sec. der. of basis .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate operator T working on basis .  .  .  .  .  .  .  .  T
+ Calculate dk-basis  .  .  .  .  .  .  .  .  .  .  .  .  .  .  F
+ Calculate gradient of fit .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate sec. der. of fit.  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate gradient of fit pot.  .  .  .  .  .  .  .  .  .  .  F
+ Kin. energy via grad.  .  .  .  .  .  .  .  .  .  .  .  .  .  F
+ Turnover rule for xc.  .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate gradient of energy .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate analytical strain derivatives  .  .  .  .  .  .  .  F
+ Calculate kin. energy density.  .  .  .  .  .  .  .  .  .  .  T
+ Calculate nuc. grad of kin. energy density  .  .  .  .  .  .  T
+ Calculate der. of density .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate second der. of density.  .  .  .  .  .  .  .  .  .  T
+ Calculate nuc. grad. of density .  .  .  .  .  .  .  .  .  .  T
+ Calculate nuc. grad. of grad. density .  .  .  .  .  .  .  .  T
+ Exact rho during SCF.  .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Exact grad. rho during SCF.  .  .  .  .  .  .  .  .  .  .  .  F
+ Exact grad. rho post SCF  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Store history of dens. matrix.  .  .  .  .  .  .  .  .  .  .  T
+ Store original Bloch functions  .  .  .  .  .  .  .  .  .  .  F
+ Direct fit .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  F
+ Direct basis  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ STO based fitting.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  F
+ Zlm fitting.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate fragment energy in mol. grid.  .  .  .  .  .  .  .  T
+ Map atoms to unit cell .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Print output for radial.  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate DOS .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate population analysis.  .  .  .  .  .  .  .  .  .  .  T
+ Calculate band structure  .  .  .  .  .  .  .  .  .  .  .  .  F
+ Calculate EFG .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  F
+ Calculate properties.  .  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Calculate kinetic energy  .  .  .  .  .  .  .  .  .  .  .  .  T
+ Save file tape10 .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  F
+ Save file Points .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  F
+
+
+
+ ==================================================
+ G E O M E T R Y    I N    X - Y - Z    F O R M A T
+ ==================================================
+  
+ O      -0.233323333    -0.290023333     0.157363333
+ H       0.756006667    -0.252353333     0.136923333
+ H      -0.522683333     0.542376667    -0.294286667
+
+   Total nr. of atoms:          3
+
+
+
+
+
+                       0 - D I M E N S I O N A L   C R Y S T A L
+
+
+                             IN K-SPACE ONLY THE GAMMA POINT
+
+
+
+
+   REAL SPACE LATTICE VECTORS                         LENGTH
+   --------------------------                         ------
+
+
+ INTER-ATOMIC DISTANCES (REDUCED)
+ --------------------------------
+   2)
+    1.8713
+   3)
+    1.8713   2.9594
+
+
+ SMALLEST INTERATOMIC DISTANCE =      1.871312391449
+ Numerically sensitive XC: Boost radial integration grid.
+ Radial integration boost factor:   3.00000000000000     
+
+
+
+ ===============================
+ K - S P A C E   S A M P L I N G
+ ===============================
+  
+ Automatic Regular k-space grid for quality: NORMAL
+ 
+   Single k-point
+
+
+
+ ===========================
+ L I N E A R   S C A L I N G
+ ===========================
+  
+ Neglecting functions
+              Valence  1.00E-06
+                 Core  1.00E-06
+                  Fit  0.00E+00
+            Multipole  1.00E-08
+   Screening function  3.16E-05
+
+
+
+ =========================================
+ N U M E R I C A L   I N T E G R A T I O N
+ =========================================
+  
+ Becke grid quality: NORMAL         
+  
+ Lebedev angular grid order:             min:  11 max:  23
+ Nr. of radial points:                   min: 144 max: 166
+
+ Total nr. of points                                  58240
+ Block length                                           128
+ Nr. of unique blocks                                   455
+ Total nr. of blocks                                    455
+
+ Percentage dummy points                               0.00%
+ Nr. of k-points processed together in baspnt            30
+ Nr. of symmetry operators (real space)                   1
+ Symmetry operators in k-space                            1
+                        EXCHANGE           CORRELATION       EXCHANGE+CORRELATION
+
+KCIS-modified         -8.4436966184       -0.2955954194       -8.7392920378
+KCIS-original         -8.3700799825       -0.2850875981       -8.6551675805
+PKZB                  -8.4037586139       -0.2873685697       -8.6911271835
+VS98                  -8.4716661561       -0.3528272991       -8.8244934553
+LDA(VWN)              -7.6146287450       -0.6272941991       -8.2419229441
+PW91                  -8.4980676960       -0.2992387087       -8.7973064048
+BLYP                  -8.5239437962       -0.3009083873       -8.8248521835
+BP                    -8.5239437962       -0.3084556436       -8.8323994398
+PBE                   -8.4668132967       -0.2722515663       -8.7390648630
+RPBE                  -8.5563399768       -0.2722515663       -8.8285915431
+revPBE                -8.5361662772       -0.2722515663       -8.8084178435
+OLYP                  -8.5053934061       -0.3009083873       -8.8063017933
+FT97                  -8.6229167916       -0.2845710411       -8.9074878327
+HCTH/93                0.0000000000        0.0000000000       -8.8083255077
+HCTH/120               0.0000000000        0.0000000000       -8.8108821261
+HCTH/147               0.0000000000        0.0000000000       -8.8149637053
+HCTH/407               0.0000000000        0.0000000000       -8.8137974075
+BOP                   -8.5239437962       -0.3024250969       -8.8263688931
+PKZBx-KCIScor         -8.4037586139       -0.2850875981       -8.6888462119
+VS98-x(xc)            -8.4716661561        0.0000000000       -8.4716661561
+VS98-x-only           -9.0986229078        0.0000000000       -9.0986229078
+TPSS                  -8.5352125471       -0.2774609465       -8.8126734935
+mPBE                  -8.4936244715       -0.2722515663       -8.7658760378
+OPBE                  -8.5053934061       -0.2722515663       -8.7776449724
+OPerdew               -8.5053934061       -0.3084556436       -8.8138490496
+mPBEKCIS              -8.4936244715       -0.2850875981       -8.7787120695
+mPW                   -8.5671618400       -0.2992387087       -8.8664005487
+tau-HCTH              -8.2808206408       -0.5209311072       -8.8017517480
+XLYP                  -8.5777075280       -0.3009083873       -8.8786159153
+KT1                   -8.9096126014       -0.6272941991       -9.5369068005
+KT2                   -9.4558099213       -0.3617775016       -9.8175874228
+M06-L                 -8.4312094459       -0.3281464756       -8.7593559215
+revTPSS               -8.4908868999       -0.2904158272       -8.7813027271
+PBEsol                -8.1436334150       -0.3259255452       -8.4695589602
+RGE2                  -8.2095022460       -0.3055687598       -8.5150710058
+SSB-D                 -9.0187186175       -0.3118882243       -9.3306068418
+MVS                   -8.4304752319       -0.2815411999       -8.7120164318
+MVSx                  -8.4304752319        0.0000000000       -8.4304752319
+
+
+
+ Total charge,    analytically                           10.000000000000
+                  numerically                             9.999994523589
+                  relative error                     -0.55E-06
+
+ Valence density, analytically                            8.000000000000
+                  numerically                             7.999997128227
+                  relative error                     -0.36E-06
+
+
+
+ INTEGRATED CHARGE PER ATOM:
+
+  SET      TOTAL CHARGE      REL. ERROR      Valence CHARGE    REL. ERROR
+ ------------------------------------------------------------------------
+   1       8.0000006325       0.791E-07      6.0000032371       0.540E-06
+   2       0.9999993987      -0.601E-06      0.9999993987      -0.601E-06
+   3       0.9999944924      -0.551E-05      0.9999944924      -0.551E-05
+
+ Norms of functions from routine baspnt
+ Maximum error in norms     3.775E-05 for function       45
+ Minimum accuracy required  1.000E-03
+
+ Norms of functions from routine corpnt
+ Maximum error in norms     1.302E-06 for function        1
+ Minimum accuracy required  1.000E-03
+
+ Sparseness info - valence
+   nr. of functions              46
+   max. nr. of functions         46
+   min. nr. of functions         13
+   avr. nr. of functions         43
+   percentage stored           93.5
+ 
+
+ Sparseness info - core
+   nr. of functions               1
+   max. nr. of functions          1
+   min. nr. of functions          0
+   avr. nr. of functions          0
+   percentage stored            0.0
+ 
+
+ Frozen core overlap error  1.30E-06
+ PrepareHam: needLdotB F
+
+
+
+ ========================
+ Density Fitting (zlmFit)
+ ========================
+  
+ ZlmFit Fit Quality: NORMAL         
+  
+ Max L-expansion:                        min:   6 max:   7
+ Nr. of radial interpolation points:     min:  39 max:  42
+
+
+
+                                          *******************************
+                                          *  S C F   P R O C E D U R E  *
+                                          *******************************
+  
+
+ Nr. of basis functions                   46
+ Nr. of core functions                     1
+ Nr. of fit functions                      0
+ Nr. of symmetry unique K-points           1
+ Valence charge                            8.00
+
+ CONVERGENCE REACHED
+
+
+
+                                             *************************
+                                             *  P R O P E R T I E S  *
+                                             *************************
+  
+
+
+
+ ===================================
+ B A N D   E N E R G Y   R A N G E S
+ ===================================
+  
+ The energies below are in Hartree.
+ =================================================
+       band          min          max   occupation
+ =================================================
+          1     -0.97083     -0.97083      2.00000
+          2     -0.48958     -0.48958      2.00000
+          3     -0.35487     -0.35487      2.00000
+          4     -0.27725     -0.27725      2.00000
+          5     -0.00051     -0.00051      0.00000
+          6      0.07264      0.07264      0.00000
+          7      0.24376      0.24376      0.00000
+          8      0.25034      0.25034      0.00000
+          9      0.36803      0.36803      0.00000
+         10      0.40104      0.40104      0.00000
+         11      0.50598      0.50598      0.00000
+         12      0.54770      0.54770      0.00000
+         13      0.58084      0.58084      0.00000
+         14      0.71368      0.71368      0.00000
+ =================================================
+ Dispersion                                                   -0.00007943      -0.0022       -0.05
+
+
+
+ =======================================
+ M E T A    G G A    F U N T I O N A L S
+ =======================================
+  
+                        a.u.           e.v.       kcal/mol
+
+KCIS-modified         -0.5014444431      -13.6449975593     -314.6611718677
+KCIS-original         -0.5061590721      -13.7732891423     -317.6196465518
+PKZB                  -0.5079263614      -13.8213795315     -318.7286374603
+VS98                  -0.5395817637      -14.6827668538     -338.5927043513
+LDA(VWN)              -0.5438678042      -14.7993959512     -341.2822356844
+PW91                  -0.5248448532      -14.2817551161     -329.3451524355
+BLYP                  -0.5047313744      -13.7344395092     -316.7237525798
+BP                    -0.5189826473      -14.1222363762     -325.6665622858
+PBE                   -0.5221925595      -14.2095825324     -327.6808128378
+RPBE                  -0.5114649227      -13.9176686830     -320.9491184161
+revPBE                -0.5125496083      -13.9471844791     -321.6297689590
+OLYP                  -0.5150213508      -14.0144440154     -323.1808109740
+FT97                  -0.5044394589      -13.7264960857     -316.5405728500
+HCTH/93               -0.5189162099      -14.1204285228     -325.6248721885
+HCTH/120              -0.5245445927      -14.2735846115     -329.1567360937
+HCTH/147              -0.5240499226      -14.2601239534     -328.8463258896
+HCTH/407              -0.5200777507      -14.1520356566     -326.3537501329
+BOP                   -0.5014961520      -13.6464046292     -314.6936196767
+PKZBx-KCIScor         -0.5031048796      -13.6901803364     -315.7031116349
+VS98-x(xc)            -0.4996791577      -13.5969616986     -313.5534384188
+VS98-x-only           -0.5049758575      -13.7410922329     -316.8771680584
+TPSS                  -0.5337175800      -14.5231942961     -334.9128731337
+mPBE                  -0.5192860315      -14.1304918829     -325.8569388240
+OPBE                  -0.5285907909      -14.3836872687     -331.6957641133
+OPerdew               -0.5292726237      -14.4022408824     -332.1236206800
+mPBEKCIS              -0.5108084955      -13.8998063900     -320.5372040857
+mPW                   -0.5202891075      -14.1577869680     -326.4863785453
+tau-HCTH              -0.5311482062      -14.4532780796     -333.3005666055
+XLYP                  -0.5040197161      -13.7150743035     -316.2771802517
+KT1                   -0.5393141328      -14.6754842484     -338.4247634547
+KT2                   -0.5576257053      -15.1737674884     -349.9154498778
+M06-L                 -0.5625804115      -15.3085919034     -353.0245752732
+revTPSS               -0.5313925229      -14.4599262735     -333.4538776265
+PBEsol                -0.5324733528      -14.4893371533     -334.1321087396
+RGE2                  -0.5240125106      -14.2591059219     -328.8228495220
+SSB-D                 -0.5371043187      -14.6153521448     -337.0380839684
+MVS                   -0.5847478833      -15.9117995035     -366.9348753302
+MVSx                  -0.5333062913      -14.5120025619     -334.6547855665
+ Final bond energy (SCAN)                                     -0.56454064     -15.3619     -354.25
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   1       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -0.56454064 Hartree
+energy change                      -0.56454064     0.00003000    F
+constrained gradient max            0.05268064     0.00100000    F
+constrained gradient rms            0.03292111     0.00066667    F
+gradient max                        0.05268064
+gradient rms                        0.03292111
+cart. step max                      0.02116321     0.01000000    F
+cart. step rms                      0.01131808     0.00666667    F
+ 
+ 
+--------
+Geometry
+--------
+Formula: H2O
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1      O    -0.95373284     0.32563319     0.95252478
+      2      H     0.00773679     0.36191466     0.93283820
+      3      H    -1.23532395     1.13451215     0.51363701
+ 
+Total System Charge             0.00000
+ 
+
+ Settings for Grimme D3 dispersion correction
+
+      damping                        BJ
+      s6                          1.000
+      s8                          0.000
+      a1                          0.538
+      a2                          5.420
+
+ Other (technical) parameters
+
+      alpha                      14.000
+      version                         4
+ 
+ K-points configuration loaded from previous results: GOStep1.rkf
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ Numerically sensitive XC: Boost radial integration grid.
+ Radial integration boost factor:   3.00000000000000     
+                        EXCHANGE           CORRELATION       EXCHANGE+CORRELATION
+
+KCIS-modified         -8.4436955995       -0.2955954201       -8.7392910196
+KCIS-original         -8.3700789694       -0.2850877488       -8.6551667182
+PKZB                  -8.4037575982       -0.2873687024       -8.6911263006
+VS98                  -8.4716661269       -0.3528265258       -8.8244926527
+LDA(VWN)              -7.6146280361       -0.6272941287       -8.2419221648
+PW91                  -8.4980666915       -0.2992388049       -8.7973054964
+BLYP                  -8.5239427904       -0.3009083618       -8.8248511522
+BP                    -8.5239427904       -0.3084557285       -8.8323985189
+PBE                   -8.4668123226       -0.2722516764       -8.7390639990
+RPBE                  -8.5563389957       -0.2722516764       -8.8285906721
+revPBE                -8.5361652979       -0.2722516764       -8.8084169744
+OLYP                  -8.5053926147       -0.3009083618       -8.8063009765
+FT97                  -8.6229158410       -0.2845712264       -8.9074870674
+HCTH/93                0.0000000000        0.0000000000       -8.8083247605
+HCTH/120               0.0000000000        0.0000000000       -8.8108813648
+HCTH/147               0.0000000000        0.0000000000       -8.8149629364
+HCTH/407               0.0000000000        0.0000000000       -8.8137967815
+BOP                   -8.5239427904       -0.3024250951       -8.8263678855
+PKZBx-KCIScor         -8.4037575982       -0.2850877488       -8.6888453470
+VS98-x(xc)            -8.4716661269        0.0000000000       -8.4716661269
+VS98-x-only           -9.0986217023        0.0000000000       -9.0986217023
+TPSS                  -8.5352113636       -0.2774610769       -8.8126724406
+mPBE                  -8.4936234950       -0.2722516764       -8.7658751714
+OPBE                  -8.5053926147       -0.2722516764       -8.7776442911
+OPerdew               -8.5053926147       -0.3084557285       -8.8138483432
+mPBEKCIS              -8.4936234950       -0.2850877488       -8.7787112437
+mPW                   -8.5671608114       -0.2992388049       -8.8663996163
+tau-HCTH              -8.2808201220       -0.5209308698       -8.8017509918
+XLYP                  -8.5777065021       -0.3009083618       -8.8786148639
+KT1                   -8.9096114875       -0.6272941287       -9.5369056162
+KT2                   -9.4558087565       -0.3617774610       -9.8175862175
+M06-L                 -8.4312083082       -0.3281466615       -8.7593549697
+revTPSS               -8.4908859815       -0.2904159506       -8.7813019322
+PBEsol                -8.1436325533       -0.3259256149       -8.4695581682
+RGE2                  -8.2095013796       -0.3055688443       -8.5150702239
+SSB-D                 -9.0187178456       -0.3118883211       -9.3306061667
+MVS                   -8.4304749497       -0.2815413052       -8.7120162548
+MVSx                  -8.4304749497        0.0000000000       -8.4304749497
+
+
+
+                                          *******************************
+                                          *  S C F   P R O C E D U R E  *
+                                          *******************************
+  
+
+ Nr. of basis functions                   46
+ Nr. of core functions                     1
+ Nr. of fit functions                      0
+ Nr. of symmetry unique K-points           1
+ Valence charge                            8.00
+
+ CONVERGENCE REACHED
+
+
+
+                                             *************************
+                                             *  P R O P E R T I E S  *
+                                             *************************
+  
+
+
+
+ ===================================
+ B A N D   E N E R G Y   R A N G E S
+ ===================================
+  
+ The energies below are in Hartree.
+ =================================================
+       band          min          max   occupation
+ =================================================
+          1     -0.98245     -0.98245      2.00000
+          2     -0.49951     -0.49951      2.00000
+          3     -0.35677     -0.35677      2.00000
+          4     -0.27958     -0.27958      2.00000
+          5      0.00391      0.00391      0.00000
+          6      0.07704      0.07704      0.00000
+          7      0.25665      0.25665      0.00000
+          8      0.26413      0.26413      0.00000
+          9      0.36945      0.36945      0.00000
+         10      0.40365      0.40365      0.00000
+         11      0.50739      0.50739      0.00000
+         12      0.54918      0.54918      0.00000
+         13      0.58803      0.58803      0.00000
+         14      0.71697      0.71697      0.00000
+         15      0.84922      0.84922      0.00000
+ =================================================
+ Dispersion                                                   -0.00007940      -0.0022       -0.05
+
+
+
+ =======================================
+ M E T A    G G A    F U N T I O N A L S
+ =======================================
+  
+                        a.u.           e.v.       kcal/mol
+
+KCIS-modified         -0.5017686732      -13.6538203078     -314.8646293162
+KCIS-original         -0.5066176259      -13.7857670245     -317.9073934000
+PKZB                  -0.5083320186      -13.8324180232     -318.9831911677
+VS98                  -0.5412041099      -14.7269131422     -339.6107421193
+LDA(VWN)              -0.5442956757      -14.8110389255     -341.5507290949
+PW91                  -0.5255307576      -14.3004195237     -329.7755639736
+BLYP                  -0.5051072539      -13.7446677125     -316.9596205892
+BP                    -0.5195169569      -14.1367756810     -326.0018466751
+PBE                   -0.5227614117      -14.2250617894     -328.0377730432
+RPBE                  -0.5120012566      -13.9322630704     -321.2856730437
+revPBE                -0.5131052007      -13.9623029180     -321.9784085006
+OLYP                  -0.5161689078      -14.0456706308     -323.9009139539
+FT97                  -0.5050851584      -13.7440664625     -316.9457554326
+HCTH/93               -0.5203693553      -14.1599706223     -326.5367348186
+HCTH/120              -0.5258910122      -14.3102225516     -330.0016272054
+HCTH/147              -0.5254122689      -14.2971952832     -329.7012112084
+HCTH/407              -0.5216512323      -14.1948522699     -327.3411248569
+BOP                   -0.5019690547      -13.6592729665     -314.9903706341
+PKZBx-KCIScor         -0.5035439642      -13.7021284356     -315.9786413945
+VS98-x(xc)            -0.5007119163      -13.6250644912     -314.2015043191
+VS98-x-only           -0.5058137483      -13.7638924042     -317.4029525883
+TPSS                  -0.5344461087      -14.5430185706     -335.3700318409
+mPBE                  -0.5198451497      -14.1457062623     -326.2077908075
+OPBE                  -0.5300146935      -14.4224336287     -332.5892765505
+OPerdew               -0.5305786108      -14.4377785993     -332.9431400398
+mPBEKCIS              -0.5113851407      -13.9154977036     -320.8990544355
+mPW                   -0.5210180400      -14.1776222316     -326.9437906682
+tau-HCTH              -0.5326249501      -14.4934623236     -334.2272374431
+XLYP                  -0.5044170204      -13.7258855031     -316.5264924779
+KT1                   -0.5398369569      -14.6897110157     -338.7528405565
+KT2                   -0.5593327107      -15.2202174688     -350.9866120529
+M06-L                 -0.5643875510      -15.3577666714     -354.1585725527
+revTPSS               -0.5319957296      -14.4763403634     -333.8323955946
+PBEsol                -0.5329146142      -14.5013444862     -334.4090044622
+RGE2                  -0.5244305699      -14.2704818952     -329.0851857424
+SSB-D                 -0.5390601911      -14.6685741415     -338.2654125761
+MVS                   -0.5868028854      -15.9677189537     -368.2244087035
+MVSx                  -0.5342040814      -14.5364326750     -335.2181574553
+ Final bond energy (SCAN)                                     -0.56603918     -15.4027     -355.19
+
+ dE(predicted):    -0.14695E-02, dE(actual):    -0.14985E-02, Trust radius:    0.200000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   2       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -0.56603918 Hartree
+energy change                      -0.00149854     0.00003000    F
+constrained gradient max            0.00773169     0.00100000    F
+constrained gradient rms            0.00450913     0.00066667    F
+gradient max                        0.00773169
+gradient rms                        0.00450913
+cart. step max                      0.00354236     0.01000000    T
+cart. step rms                      0.00213648     0.00666667    T
+ 
+ 
+--------
+Geometry
+--------
+Formula: H2O
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1      O    -0.95088188     0.32917555     0.95060274
+      2      H     0.00753920     0.35937985     0.93421356
+      3      H    -1.23797732     1.13350460     0.51418370
+ 
+Total System Charge             0.00000
+ 
+
+ Settings for Grimme D3 dispersion correction
+
+      damping                        BJ
+      s6                          1.000
+      s8                          0.000
+      a1                          0.538
+      a2                          5.420
+
+ Other (technical) parameters
+
+      alpha                      14.000
+      version                         4
+ 
+ K-points configuration loaded from previous results: GOStep2.rkf
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ Numerically sensitive XC: Boost radial integration grid.
+ Radial integration boost factor:   3.00000000000000     
+                        EXCHANGE           CORRELATION       EXCHANGE+CORRELATION
+
+KCIS-modified         -8.4436953712       -0.2955958121       -8.7392911834
+KCIS-original         -8.3700787351       -0.2850878123       -8.6551665474
+PKZB                  -8.4037573667       -0.2873687578       -8.6911261245
+VS98                  -8.4716663764       -0.3528261516       -8.8244925280
+LDA(VWN)              -7.6146278856       -0.6272941139       -8.2419219995
+PW91                  -8.4980664786       -0.2992388464       -8.7973053250
+BLYP                  -8.5239425780       -0.3009083560       -8.8248509340
+BP                    -8.5239425780       -0.3084557629       -8.8323983409
+PBE                   -8.4668121241       -0.2722517222       -8.7390638463
+RPBE                  -8.5563388027       -0.2722517222       -8.8285905249
+revPBE                -8.5361651032       -0.2722517222       -8.8084168254
+OLYP                  -8.5053924852       -0.3009083560       -8.8063008411
+FT97                  -8.6229156572       -0.2845712110       -8.9074868682
+HCTH/93                0.0000000000        0.0000000000       -8.8083246411
+HCTH/120               0.0000000000        0.0000000000       -8.8108812385
+HCTH/147               0.0000000000        0.0000000000       -8.8149628053
+HCTH/407               0.0000000000        0.0000000000       -8.8137967120
+BOP                   -8.5239425780       -0.3024250982       -8.8263676762
+PKZBx-KCIScor         -8.4037573667       -0.2850878123       -8.6888451790
+VS98-x(xc)            -8.4716663764        0.0000000000       -8.4716663764
+VS98-x-only           -9.0986215768        0.0000000000       -9.0986215768
+TPSS                  -8.5352110198       -0.2774611315       -8.8126721513
+mPBE                  -8.4936232982       -0.2722517222       -8.7658750204
+OPBE                  -8.5053924852       -0.2722517222       -8.7776442074
+OPerdew               -8.5053924852       -0.3084557629       -8.8138482480
+mPBEKCIS              -8.4936232982       -0.2850878123       -8.7787111105
+mPW                   -8.5671605921       -0.2992388464       -8.8663994386
+tau-HCTH              -8.2808200598       -0.5209307880       -8.8017508479
+XLYP                  -8.5777062853       -0.3009083560       -8.8786146413
+KT1                   -8.9096113016       -0.6272941139       -9.5369054154
+KT2                   -9.4558085598       -0.3617774524       -9.8175860122
+M06-L                 -8.4312082932       -0.3281465377       -8.7593548309
+revTPSS               -8.4908857420       -0.2904160020       -8.7813017440
+PBEsol                -8.1436323784       -0.3259256436       -8.4695580221
+RGE2                  -8.2095012087       -0.3055688791       -8.5150700878
+SSB-D                 -9.0187178006       -0.3118883641       -9.3306061647
+MVS                   -8.4304750865       -0.2815413488       -8.7120164353
+MVSx                  -8.4304750865        0.0000000000       -8.4304750865
+
+
+
+                                          *******************************
+                                          *  S C F   P R O C E D U R E  *
+                                          *******************************
+  
+
+ Nr. of basis functions                   46
+ Nr. of core functions                     1
+ Nr. of fit functions                      0
+ Nr. of symmetry unique K-points           1
+ Valence charge                            8.00
+
+ CONVERGENCE REACHED
+
+
+
+                                             *************************
+                                             *  P R O P E R T I E S  *
+                                             *************************
+  
+
+
+
+ ===================================
+ B A N D   E N E R G Y   R A N G E S
+ ===================================
+  
+ The energies below are in Hartree.
+ =================================================
+       band          min          max   occupation
+ =================================================
+          1     -0.98331     -0.98331      2.00000
+          2     -0.50217     -0.50217      2.00000
+          3     -0.35546     -0.35546      2.00000
+          4     -0.27970     -0.27970      2.00000
+          5      0.00452      0.00452      0.00000
+          6      0.07740      0.07740      0.00000
+          7      0.25723      0.25723      0.00000
+          8      0.26681      0.26681      0.00000
+          9      0.37015      0.37015      0.00000
+         10      0.40412      0.40412      0.00000
+         11      0.50940      0.50940      0.00000
+         12      0.54872      0.54872      0.00000
+         13      0.58717      0.58717      0.00000
+         14      0.72089      0.72089      0.00000
+         15      0.84700      0.84700      0.00000
+ =================================================
+ Dispersion                                                   -0.00007939      -0.0022       -0.05
+
+
+
+ =======================================
+ M E T A    G G A    F U N T I O N A L S
+ =======================================
+  
+                        a.u.           e.v.       kcal/mol
+
+KCIS-modified         -0.5015771161      -13.6486077743     -314.7444254180
+KCIS-original         -0.5064519626      -13.7812590978     -317.8034381236
+PKZB                  -0.5081545483      -13.8275888131     -318.8718269186
+VS98                  -0.5412001256      -14.7268047228     -339.6082419081
+LDA(VWN)              -0.5441809082      -14.8079159446     -341.4787114333
+PW91                  -0.5254199365      -14.2974039301     -329.7060227201
+BLYP                  -0.5049715186      -13.7409741656     -316.8744453615
+BP                    -0.5193867248      -14.1332318849     -325.9201247825
+PBE                   -0.5226320903      -14.2215427743     -327.9566226145
+RPBE                  -0.5118569402      -13.9283360206     -321.1951131086
+revPBE                -0.5129654311      -13.9584995944     -321.8907017617
+OLYP                  -0.5160927626      -14.0435986147     -323.8531321206
+FT97                  -0.5049493663      -13.7403713721     -316.8605446100
+HCTH/93               -0.5203347459      -14.1590288536     -326.5150171126
+HCTH/120              -0.5258498572      -14.3091026654     -329.9758020119
+HCTH/147              -0.5253723298      -14.2961084845     -329.6761490311
+HCTH/407              -0.5216384040      -14.1945031944     -327.3330749833
+BOP                   -0.5018379076      -13.6557042728     -314.9080745890
+PKZBx-KCIScor         -0.5033723183      -13.6974577116     -315.8709319240
+VS98-x(xc)            -0.5006411426      -13.6231386405     -314.1570931394
+VS98-x-only           -0.5057146968      -13.7611970758     -317.3407968272
+TPSS                  -0.5343404919      -14.5401445918     -335.3037563041
+mPBE                  -0.5197116929      -14.1420747181     -326.1240453956
+OPBE                  -0.5299542165      -14.4207879647     -332.5513266312
+OPerdew               -0.5305079689      -14.4358563340     -332.8988115416
+mPBEKCIS              -0.5112551116      -13.9119594312     -320.8174599207
+mPW                   -0.5209107680      -14.1747032103     -326.8764764260
+tau-HCTH              -0.5326065560      -14.4929617951     -334.2156949800
+XLYP                  -0.5042837233      -13.7222583033     -316.4428472516
+KT1                   -0.5396689937      -14.6851405033     -338.6474420180
+KT2                   -0.5593083005      -15.2195532338     -350.9712944288
+M06-L                 -0.5643913987      -15.3578713729     -354.1609870278
+revTPSS               -0.5318648979      -14.4727802524     -333.7502974701
+PBEsol                -0.5327768522      -14.4975957908     -334.3225574777
+RGE2                  -0.5242794828      -14.2663706051     -328.9903771252
+SSB-D                 -0.5390434300      -14.6681180488     -338.2548948278
+MVS                   -0.5868359664      -15.9686191357     -368.2451673966
+MVSx                  -0.5341134877      -14.5339674932     -335.1613090024
+ Final bond energy (SCAN)                                     -0.56602151     -15.4022     -355.18
+
+ dE(predicted):    -0.36688E-04, dE(actual):     0.17669E-04, Trust radius:    0.020000, all in a.u.
+ 
+----------------------------------------------------------------------
+Geometry Convergence after Step   3       (Hartree/Angstrom,Angstrom)
+----------------------------------------------------------------------
+current energy                               -0.56602151 Hartree
+energy change                       0.00001767     0.00003000    T
+constrained gradient max            0.00119189     0.00100000    F
+constrained gradient rms            0.00067172     0.00066667    F
+gradient max                        0.00119189
+gradient rms                        0.00067172
+cart. step max                      0.00191281     0.01000000    T
+cart. step rms                      0.00105770     0.00666667    T
+ 
+ 
+--------
+Geometry
+--------
+Formula: H2O
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1      O    -0.94998438     0.33029544     0.94999510
+      2      H     0.00855451     0.35791108     0.93501050
+      3      H    -1.23989013     1.13385348     0.51399440
+ 
+Total System Charge             0.00000
+ 
+
+ Settings for Grimme D3 dispersion correction
+
+      damping                        BJ
+      s6                          1.000
+      s8                          0.000
+      a1                          0.538
+      a2                          5.420
+
+ Other (technical) parameters
+
+      alpha                      14.000
+      version                         4
+ 
+ K-points configuration loaded from previous results: GOStep3.rkf
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ Numerically sensitive XC: Boost radial integration grid.
+ Radial integration boost factor:   3.00000000000000     
+                        EXCHANGE           CORRELATION       EXCHANGE+CORRELATION
+
+KCIS-modified         -8.4436953589       -0.2955959787       -8.7392913376
+KCIS-original         -8.3700787187       -0.2850878291       -8.6551665477
+PKZB                  -8.4037573520       -0.2873687721       -8.6911261241
+VS98                  -8.4716664939       -0.3528260467       -8.8244925406
+LDA(VWN)              -7.6146278795       -0.6272941136       -8.2419219931
+PW91                  -8.4980664728       -0.2992388570       -8.7973053298
+BLYP                  -8.5239425727       -0.3009083550       -8.8248509277
+BP                    -8.5239425727       -0.3084557710       -8.8323983437
+PBE                   -8.4668121224       -0.2722517335       -8.7390638559
+RPBE                  -8.5563388050       -0.2722517335       -8.8285905385
+revPBE                -8.5361651044       -0.2722517335       -8.8084168378
+OLYP                  -8.5053925003       -0.3009083550       -8.8063008553
+FT97                  -8.6229156614       -0.2845711887       -8.9074868501
+HCTH/93                0.0000000000        0.0000000000       -8.8083246572
+HCTH/120               0.0000000000        0.0000000000       -8.8108812529
+HCTH/147               0.0000000000        0.0000000000       -8.8149628183
+HCTH/407               0.0000000000        0.0000000000       -8.8137967419
+BOP                   -8.5239425727       -0.3024250996       -8.8263676723
+PKZBx-KCIScor         -8.4037573520       -0.2850878291       -8.6888451811
+VS98-x(xc)            -8.4716664939        0.0000000000       -8.4716664939
+VS98-x-only           -9.0986216171        0.0000000000       -9.0986216171
+TPSS                  -8.5352109721       -0.2774611452       -8.8126721173
+mPBE                  -8.4936232977       -0.2722517335       -8.7658750312
+OPBE                  -8.5053925003       -0.2722517335       -8.7776442338
+OPerdew               -8.5053925003       -0.3084557710       -8.8138482714
+mPBEKCIS              -8.4936232977       -0.2850878291       -8.7787111268
+mPW                   -8.5671605857       -0.2992388570       -8.8663994427
+tau-HCTH              -8.2808200829       -0.5209307719       -8.8017508548
+XLYP                  -8.5777062799       -0.3009083550       -8.8786146348
+KT1                   -8.9096113209       -0.6272941136       -9.5369054345
+KT2                   -9.4558085787       -0.3617774523       -9.8175860310
+M06-L                 -8.4312083562       -0.3281465025       -8.7593548588
+revTPSS               -8.4908857226       -0.2904160149       -8.7813017375
+PBEsol                -8.1436323769       -0.3259256506       -8.4695580275
+RGE2                  -8.2095012100       -0.3055688875       -8.5150700975
+SSB-D                 -9.0187178533       -0.3118883753       -9.3306062286
+MVS                   -8.4304751437       -0.2815413595       -8.7120165032
+MVSx                  -8.4304751437        0.0000000000       -8.4304751437
+
+
+
+                                          *******************************
+                                          *  S C F   P R O C E D U R E  *
+                                          *******************************
+  
+
+ Nr. of basis functions                   46
+ Nr. of core functions                     1
+ Nr. of fit functions                      0
+ Nr. of symmetry unique K-points           1
+ Valence charge                            8.00
+
+ CONVERGENCE REACHED
+
+
+
+                                             *************************
+                                             *  P R O P E R T I E S  *
+                                             *************************
+  
+
+
+
+ ===================================
+ B A N D   E N E R G Y   R A N G E S
+ ===================================
+  
+ The energies below are in Hartree.
+ =================================================
+       band          min          max   occupation
+ =================================================
+          1     -0.98306     -0.98306      2.00000
+          2     -0.50279     -0.50279      2.00000
+          3     -0.35479     -0.35479      2.00000
+          4     -0.27963     -0.27963      2.00000
+          5      0.00460      0.00460      0.00000
+          6      0.07741      0.07741      0.00000
+          7      0.25682      0.25682      0.00000
+          8      0.26729      0.26729      0.00000
+          9      0.37038      0.37038      0.00000
+         10      0.40419      0.40419      0.00000
+         11      0.51023      0.51023      0.00000
+         12      0.54849      0.54849      0.00000
+         13      0.58642      0.58642      0.00000
+         14      0.72243      0.72243      0.00000
+         15      0.84717      0.84717      0.00000
+ =================================================
+ Dispersion                                                   -0.00007939      -0.0022       -0.05
+
+
+
+ =======================================
+ M E T A    G G A    F U N T I O N A L S
+ =======================================
+  
+                        a.u.           e.v.       kcal/mol
+
+KCIS-modified         -0.5015489792      -13.6478421313     -314.7267692665
+KCIS-original         -0.5064278275      -13.7806023485     -317.7882931231
+PKZB                  -0.5081281438      -13.8268703097     -318.8552578335
+VS98                  -0.5411836761      -14.7263571096     -339.5979197012
+LDA(VWN)              -0.5441820372      -14.8079466661     -341.4794198877
+PW91                  -0.5254072914      -14.2970598384     -329.6980877758
+BLYP                  -0.5049636746      -13.7407607213     -316.8695232165
+BP                    -0.5193736061      -14.1328749079     -325.9118926959
+PBE                   -0.5226178322      -14.2211547924     -327.9476755380
+RPBE                  -0.5118376095      -13.9278100061     -321.1829829223
+revPBE                -0.5129470857      -13.9580003891     -321.8791898111
+OLYP                  -0.5160705347      -14.0429937609     -323.8391838565
+FT97                  -0.5049269623      -13.7397617288     -316.8464858991
+HCTH/93               -0.5203137115      -14.1584564775     -326.5018178038
+HCTH/120              -0.5258315662      -14.3086049430     -329.9643242586
+HCTH/147              -0.5253537235      -14.2956021828     -329.6644734338
+HCTH/407              -0.5216201937      -14.1940076660     -327.3216478257
+BOP                   -0.5018268763      -13.6554040946     -314.9011523142
+PKZBx-KCIScor         -0.5033465226      -13.6967557770     -315.8547449231
+VS98-x(xc)            -0.5006273152      -13.6227623773     -314.1484163037
+VS98-x-only           -0.5056964563      -13.7607007254     -317.3293507124
+TPSS                  -0.5343271711      -14.5397821137     -335.2953973577
+mPBE                  -0.5196960693      -14.1416495773     -326.1142414145
+OPBE                  -0.5299249257      -14.4199909221     -332.5329463890
+OPerdew               -0.5304804662      -14.4351079475     -332.8815533359
+mPBEKCIS              -0.5112397311      -13.9115409080     -320.8078085449
+mPW                   -0.5208970910      -14.1743310423     -326.8678940262
+tau-HCTH              -0.5325908002      -14.4925330574     -334.2058080527
+XLYP                  -0.5042756298      -13.7220380691     -316.4377685273
+KT1                   -0.5396385259      -14.6843114335     -338.6283232127
+KT2                   -0.5592761135      -15.2186773814     -350.9510967873
+M06-L                 -0.5643685481      -15.3572495766     -354.1466480628
+revTPSS               -0.5318472825      -14.4723009116     -333.7392436072
+PBEsol                -0.5327666885      -14.4973192227     -334.3161796649
+RGE2                  -0.5242646299      -14.2659664362     -328.9810567660
+SSB-D                 -0.5390033076      -14.6670262637     -338.2297176601
+MVS                   -0.5868146516      -15.9680391290     -368.2317921229
+MVSx                  -0.5340986009      -14.5335624038     -335.1519674176
+ Final bond energy (SCAN)                                     -0.56600626     -15.4018     -355.17
+
+ dE(predicted):    -0.31939E-05, dE(actual):     0.15248E-04, Trust radius:    0.020000, all in a.u.
+ 
+---------------------------------------------------------
+Geometry Convergence after Step   4       ** CONVERGED **
+---------------------------------------------------------
+current energy                               -0.56600626 Hartree
+energy change                       0.00001525     0.00003000    T
+constrained gradient max            0.00015732     0.00100000    T
+constrained gradient rms            0.00008843     0.00066667    T
+gradient max                        0.00015732
+gradient rms                        0.00008843
+cart. step max                      0.00022738     0.01000000    T
+cart. step rms                      0.00012205     0.00666667    T
+ 
+Geometry optimization converged
+
+Optimized geometry:
+ 
+--------
+Geometry
+--------
+Formula: H2O
+Atoms
+  Index Symbol   x (angstrom)   y (angstrom)   z (angstrom)
+      1      O    -0.94998438     0.33029544     0.94999510
+      2      H     0.00855451     0.35791108     0.93501050
+      3      H    -1.23989013     1.13385348     0.51399440
+ 
+Total System Charge             0.00000
+ 
+Performing a single point calculation on the final geometry ...
+
+
+ Settings for Grimme D3 dispersion correction
+
+      damping                        BJ
+      s6                          1.000
+      s8                          0.000
+      a1                          0.538
+      a2                          5.420
+
+ Other (technical) parameters
+
+      alpha                      14.000
+      version                         4
+ 
+ K-points configuration loaded from previous results: GOStep4.rkf
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ * * *M E T A   G G A * * *
+ exchange: scan
+ correlation: scan
+ XCFun not active
+ Numerically sensitive XC: Boost radial integration grid.
+ Radial integration boost factor:   3.00000000000000     
+                        EXCHANGE           CORRELATION       EXCHANGE+CORRELATION
+
+KCIS-modified         -8.4436953589       -0.2955959787       -8.7392913376
+KCIS-original         -8.3700787187       -0.2850878291       -8.6551665477
+PKZB                  -8.4037573520       -0.2873687721       -8.6911261241
+VS98                  -8.4716664939       -0.3528260467       -8.8244925406
+LDA(VWN)              -7.6146278795       -0.6272941136       -8.2419219931
+PW91                  -8.4980664728       -0.2992388570       -8.7973053298
+BLYP                  -8.5239425727       -0.3009083550       -8.8248509277
+BP                    -8.5239425727       -0.3084557710       -8.8323983437
+PBE                   -8.4668121224       -0.2722517335       -8.7390638559
+RPBE                  -8.5563388050       -0.2722517335       -8.8285905385
+revPBE                -8.5361651044       -0.2722517335       -8.8084168378
+OLYP                  -8.5053925003       -0.3009083550       -8.8063008553
+FT97                  -8.6229156614       -0.2845711887       -8.9074868501
+HCTH/93                0.0000000000        0.0000000000       -8.8083246572
+HCTH/120               0.0000000000        0.0000000000       -8.8108812529
+HCTH/147               0.0000000000        0.0000000000       -8.8149628183
+HCTH/407               0.0000000000        0.0000000000       -8.8137967419
+BOP                   -8.5239425727       -0.3024250996       -8.8263676723
+PKZBx-KCIScor         -8.4037573520       -0.2850878291       -8.6888451811
+VS98-x(xc)            -8.4716664939        0.0000000000       -8.4716664939
+VS98-x-only           -9.0986216171        0.0000000000       -9.0986216171
+TPSS                  -8.5352109721       -0.2774611452       -8.8126721173
+mPBE                  -8.4936232977       -0.2722517335       -8.7658750312
+OPBE                  -8.5053925003       -0.2722517335       -8.7776442338
+OPerdew               -8.5053925003       -0.3084557710       -8.8138482714
+mPBEKCIS              -8.4936232977       -0.2850878291       -8.7787111268
+mPW                   -8.5671605857       -0.2992388570       -8.8663994427
+tau-HCTH              -8.2808200829       -0.5209307719       -8.8017508548
+XLYP                  -8.5777062799       -0.3009083550       -8.8786146348
+KT1                   -8.9096113209       -0.6272941136       -9.5369054345
+KT2                   -9.4558085787       -0.3617774523       -9.8175860310
+M06-L                 -8.4312083562       -0.3281465025       -8.7593548588
+revTPSS               -8.4908857226       -0.2904160149       -8.7813017375
+PBEsol                -8.1436323769       -0.3259256506       -8.4695580275
+RGE2                  -8.2095012100       -0.3055688875       -8.5150700975
+SSB-D                 -9.0187178533       -0.3118883753       -9.3306062286
+MVS                   -8.4304751437       -0.2815413595       -8.7120165032
+MVSx                  -8.4304751437        0.0000000000       -8.4304751437
+ SCF procedure tweaks
+   * counter           0
+   * addExtraPotential F
+   * addExtraPotentialOnLastCycle F
+   * extraPotentialName
+   * reuseEigenSystem F
+ 
+ skipDiagonalization F parmix=  7.500000000000000E-002 ncylx=         300
+ restartSCF T
+ forceRestartSolution F
+
+
+
+                                          *******************************
+                                          *  S C F   P R O C E D U R E  *
+                                          *******************************
+  
+
+ Nr. of basis functions                   46
+ Nr. of core functions                     1
+ Nr. of fit functions                      0
+ Nr. of symmetry unique K-points           1
+ Valence charge                            8.00
+
+ Settings for convergence
+ --------------------------------------------------------------------------------
+   Initial density:          psi
+ --------------------------------------------------------------------------------
+
+ restarting scf, max mismatch in geometries:   0.000000000000000E+000
+ cyc=  0 err=2.79E-07 cpu=   1s ela=   1s
+ cyc=  1 err=1.03E-07 meth=m nvec= 1 mix=0.1098 cpu=   1s ela=   1s fit=2.28E-03
+
+ CONVERGENCE REACHED
+ cyc=  2 err=7.41E-08 meth=d nvec= 2 mix=0.8442 cpu=   1s ela=   1s fit=2.28E-03
+
+
+         -------------------- CYCLE    3 --------------------
+ Self consistent error (density)                       7.41E-08
+
+
+
+                                             *************************
+                                             *  P R O P E R T I E S  *
+                                             *************************
+  
+
+
+
+ ===================================
+ B A N D   E N E R G Y   R A N G E S
+ ===================================
+  
+ The energies below are in Hartree.
+ =================================================
+       band          min          max   occupation
+ =================================================
+          1     -0.98306     -0.98306      2.00000
+          2     -0.50279     -0.50279      2.00000
+          3     -0.35479     -0.35479      2.00000
+          4     -0.27963     -0.27963      2.00000
+          5      0.00460      0.00460      0.00000
+          6      0.07741      0.07741      0.00000
+          7      0.25682      0.25682      0.00000
+          8      0.26729      0.26729      0.00000
+          9      0.37038      0.37038      0.00000
+         10      0.40419      0.40419      0.00000
+         11      0.51023      0.51023      0.00000
+         12      0.54849      0.54849      0.00000
+         13      0.58642      0.58642      0.00000
+         14      0.72243      0.72243      0.00000
+         15      0.84717      0.84717      0.00000
+ =================================================
+
+----------------------------------------
+Band gap information
+----------------------------------------
+Number of valence electrons                     8
+Valence band index                              4
+Top of valence band (a.u.)                 -0.280
+Bottom of conduction band (a.u.)            0.005
+Band gap (a.u.)                             0.284
+Band gap (eV)                               7.734
+Band gap (kcal/mol)                       178.356
+ 
+
+
+
+ =============================
+ E N E R G Y   A N A L Y S I S
+ =============================
+  
+ Formation energy w.r.t. spherically-symmetric spin-restricted atoms
+
+                                                             (a.u.)            (eV)     (kCal/mol)
+ --------------------------------------------------------------------------------------------------
+
+ Kinetic                                                       0.59038676      16.0652      370.47
+ XC                                                           -0.54179896     -14.7431     -339.98
+ Electrostatic                                                -0.25065364      -6.8206     -157.29
+ V(atomic)*def                                                -0.42644377     -11.6041     -267.60
+ V(def)*def                                                    0.06258274       1.7030       39.27
+ Dispersion                                                   -0.00007939      -0.0022       -0.05
+ --------------------------------------------------------------------------------------------------
+
+
+
+
+ =======================================
+ M E T A    G G A    F U N T I O N A L S
+ =======================================
+  
+                        a.u.           e.v.       kcal/mol
+
+KCIS-modified         -0.5015489807      -13.6478421707     -314.7267701766
+KCIS-original         -0.5064278286      -13.7806023782     -317.7882938074
+PKZB                  -0.5081281452      -13.8268703460     -318.8552586708
+VS98                  -0.5411836759      -14.7263571022     -339.5979195293
+LDA(VWN)              -0.5441820380      -14.8079466884     -341.4794204017
+PW91                  -0.5254072916      -14.2970598441     -329.6980879075
+BLYP                  -0.5049636749      -13.7407607301     -316.8695234198
+BP                    -0.5193736065      -14.1328749193     -325.9118929580
+PBE                   -0.5226178328      -14.2211548073     -327.9476758817
+RPBE                  -0.5118376102      -13.9278100243     -321.1829833422
+revPBE                -0.5129470863      -13.9580004053     -321.8791901843
+OLYP                  -0.5160705346      -14.0429937600     -323.8391838358
+FT97                  -0.5049269630      -13.7397617469     -316.8464863172
+HCTH/93               -0.5203137109      -14.1584564617     -326.5018174398
+HCTH/120              -0.5258315658      -14.3086049320     -329.9643240044
+HCTH/147              -0.5253537231      -14.2956021710     -329.6644731612
+HCTH/407              -0.5216201931      -14.1940076500     -327.3216474558
+BOP                   -0.5018268764      -13.6554040988     -314.9011524111
+PKZBx-KCIScor         -0.5033465238      -13.6967558087     -315.8547456538
+VS98-x(xc)            -0.5006273156      -13.6227623877     -314.1484165443
+VS98-x-only           -0.5056964562      -13.7607007221     -317.3293506363
+TPSS                  -0.5343271714      -14.5397821234     -335.2953975821
+mPBE                  -0.5196960699      -14.1416495932     -326.1142417808
+OPBE                  -0.5299249256      -14.4199909191     -332.5329463212
+OPerdew               -0.5304804662      -14.4351079492     -332.8815533740
+mPBEKCIS              -0.5112397316      -13.9115409197     -320.8078088148
+mPW                   -0.5208970911      -14.1743310435     -326.8678940547
+tau-HCTH              -0.5325907993      -14.4925330355     -334.2058075464
+XLYP                  -0.5042756301      -13.7220380761     -316.4377686898
+KT1                   -0.5396385268      -14.6843114584     -338.6283237862
+KT2                   -0.5592761123      -15.2186773482     -350.9510960229
+M06-L                 -0.5643685481      -15.3572495774     -354.1466480795
+revTPSS               -0.5318472833      -14.4723009345     -333.7392441363
+PBEsol                -0.5327666894      -14.4973192475     -334.3161802358
+RGE2                  -0.5242646309      -14.2659664643     -328.9810574161
+SSB-D                 -0.5390033072      -14.6670262524     -338.2297173999
+MVS                   -0.5868146517      -15.9680391326     -368.2317922063
+MVSx                  -0.5340986022      -14.5335624388     -335.1519682234
+ Final bond energy (SCAN)                                     -0.56600626     -15.4018     -355.17
+ 
+ Fit error correction used (Vdef*err)                          0.00000165       0.0000        0.00
+
+ ==================================================================================================
+ Rigid motions settings for: RemoveFreeMovements
+ Atomic rotations (x,y,z):     T T T
+ Atomic translations (x,y,z):  T T T
+ Tolerance:                   1.000000000000000E-006
+
+
+
+ ================================
+ E N E R G Y    G R A D I E N T S
+ ================================
+  
+ (Energy gradients wrt nuclear displacements in Hartree per Bohr)
+ 
+ 
+ FINAL GRADIENTS
+    1  O  0.000005  0.000005 -0.000003
+    2  H -0.000083  0.000048 -0.000026
+    3  H  0.000079 -0.000053  0.000029
+ 
+
+
+
+ ==========================
+ D I P O L E    M O M E N T
+ ==========================
+  
+   ==================================================
+    direction       dipole (a.u.)      dipole (Debye)
+   ==================================================
+            x            0.406854            1.034120
+            y            0.505667            1.285278
+            z           -0.274421           -0.697509
+   ==================================================
+ Form Factors not computed: only 1 k-point.
+   min. nr. of func/process                    47
+   noper                                        1
+   nfunc                                       47
+   nprocsThisNode                               1
+   nfuncThisProcess                            47
+   safeMaxFuncSliceSize                        47
+   requestedMaxFuncSliceSize                  128
+   actual maxFuncSliceSize                     47
+   numSlices                                    1
+   storeCoopPerBasPair                          F
+   nEnergies                                   44
+       Nr. of bands used for DOS:     14
+   nband_dosplot                               14
+   bandSliceSize                               14
+   num band slices                              1
+
+
+
+ =======================================
+ M U L L I K E N   P O P U L A T I O N S
+ =======================================
+  
+
+ BASISFUNCTION         Q
+ --------------------------------
+ 1/O/NO/2s                   1.757
+ 1/O/NO/2p_y                 1.699
+ 1/O/NO/2p_z                 1.818
+ 1/O/NO/2p_x                 1.629
+ 1/O/STO2.88/2s              0.030
+ 1/O/STO7.58/2s             -0.001
+ 1/O/STO1.12/2p_y           -0.094
+ 1/O/STO1.12/2p_z           -0.014
+ 1/O/STO1.12/2p_x           -0.242
+ 1/O/STO4.08/2p_y           -0.029
+ 1/O/STO4.08/2p_z           -0.020
+ 1/O/STO4.08/2p_x           -0.040
+ 1/O/STO2/3d_xy              0.003
+ 1/O/STO2/3d_yz              0.009
+ 1/O/STO2/3d_z2              0.006
+ 1/O/STO2/3d_xz              0.002
+ 1/O/STO2/3d_x2-y2           0.015
+ 1/O/STO3/4f_y3-3yx2         0.000
+ 1/O/STO3/4f_xyz             0.000
+ 1/O/STO3/4f_xz2             0.000
+ 1/O/STO3/4f_z3              0.001
+ 1/O/STO3/4f_yz2             0.001
+ 1/O/STO3/4f_zx2-zy2         0.001
+ 1/O/STO3/4f_x3-3xy2         0.001
+                    -------------
+ Charge on atom              6.530
+ 
+ 2/H/NO/1s                   0.363
+ 2/H/STO0.69/1s             -0.093
+ 2/H/STO1.58/1s              0.334
+ 2/H/STO1.25/2p_y            0.042
+ 2/H/STO1.25/2p_z            0.053
+ 2/H/STO1.25/2p_x            0.023
+ 2/H/STO2.5/3d_xy            0.005
+ 2/H/STO2.5/3d_yz           -0.000
+ 2/H/STO2.5/3d_z2            0.001
+ 2/H/STO2.5/3d_xz            0.005
+ 2/H/STO2.5/3d_x2-y2         0.002
+                    -------------
+ Charge on atom              0.735
+ 
+ 3/H/NO/1s                   0.364
+ 3/H/STO0.69/1s             -0.093
+ 3/H/STO1.58/1s              0.334
+ 3/H/STO1.25/2p_y            0.042
+ 3/H/STO1.25/2p_z            0.053
+ 3/H/STO1.25/2p_x            0.024
+ 3/H/STO2.5/3d_xy            0.002
+ 3/H/STO2.5/3d_yz            0.003
+ 3/H/STO2.5/3d_z2            0.002
+ 3/H/STO2.5/3d_xz            0.001
+ 3/H/STO2.5/3d_x2-y2         0.004
+                    -------------
+ Charge on atom              0.735
+ 
+ Total charge                8.000
+
+
+ ATOM/ATOM OVERLAP MATRIX
+ (OFF-DIAGONAL ELEMENTS HALF OF OVERLAP POPULATION)
+ (order of atoms as on input)
+ ATOM         CORE    1       2       3       4       5       6       7       8       9
+           -------------------------------------------------------------------------------
+   0)
+      1 :  0.0028
+   1)
+      1 : -0.0011  5.7166
+   2)
+      1 : -0.0009  0.4072  0.4170
+   3)
+      1 : -0.0009  0.4073 -0.0884  0.4171
+
+
+
+ ======================
+ Atomic Charge Analysis
+ ======================
+  
+ Deformation charges with respect to neutral atoms.
+ 
+   ----------------------------------------------------------
+     Atom      Hirshfeld     Voronoi         CM5    Mulliken
+   ----------------------------------------------------------
+      1  O        -0.314      -0.276      -0.649      -0.530
+      2  H         0.157       0.138       0.325       0.265
+      3  H         0.157       0.137       0.324       0.265
+   ----------------------------------------------------------
+      Total:       0.000      -0.000       0.000       0.000
+   ----------------------------------------------------------
+ 
+ WARNING: matrix written, but never read. Matrix name: S(VOC/VOC)
+
+
+    =====================
+     CALCULATION RESULTS
+    =====================
+
+Energy (hartree)            -0.56600626
+
+Gradients (hartree/bohr)
+  Index   Atom            d/dx            d/dy            d/dz
+      1      O    0.0000046019    0.0000052352   -0.0000028406
+      2      H   -0.0000832417    0.0000475593   -0.0000258051
+      3      H    0.0000786398   -0.0000527945    0.0000286456
+
+
+--------------
+Atomic charges
+--------------
+  Index   Atom    Charge
+      1      O   -0.3140
+      2      H    0.1570
+      3      H    0.1570
+
+
+
+
+ =================
+ Timing Statistics
+ =================
+  
+ Total Used :                     CPU=       99.13      System=        5.88     Elapsed=      120.58
+
+ Calls  Section                     ( Mean, Percentage )
+ ---------------------------------------------------------------------------------------------------
+     7  ><      ................      0.00    0.00             0.00    0.13             0.02    0.12
+     5  GETINP  ................      0.04    0.18             0.03    2.30             1.26    5.20
+    10  DIRAC   ................      0.09    0.88             0.00    0.54             0.14    1.20
+    10  SLTORB  ................      0.00    0.02             0.00    0.00             0.00    0.02
+    10  FITRAD  ................      0.00    0.00             0.00    0.00             0.00    0.00
+     5  RADIAL  ................      0.01    0.07             0.01    1.08             0.06    0.24
+     5  POINTS  ................      0.30    1.49             0.02    1.86             0.54    2.23
+     5  CELLS   ................      0.01    0.03             0.01    0.47             0.06    0.25
+     5  ELSTAT  ................      0.00    0.01             0.00    0.10             0.02    0.09
+     5  ATMFNC  ................      7.26   36.64             0.12   10.14             7.71   31.95
+     5  NUMGRD  ................      0.17    0.85             0.02    1.69             0.30    1.25
+     1  RHOPSD  ................      0.05    0.05             0.01    0.25             0.27    0.22
+    45  RHOFIT  ................      0.34   15.63             0.04   27.94             0.41   15.40
+    45  PMATPROPS ..............      0.11    5.03             0.01    8.84             0.13    4.70
+    45  RHOPOT  ................      0.04    2.02             0.01    8.65             0.07    2.44
+    45  SCFEXTRA1 ..............      0.00    0.01             0.00    0.01             0.00    0.01
+    90  EIGSYS  ................      0.14   13.01             0.01    9.06             0.15   11.24
+    45  FERMI   ................      0.00    0.05             0.00    0.07             0.00    0.06
+    40  PMATRX  ................      0.00    0.08             0.00    0.54             0.00    0.13
+    44  RHOPMD  ................      0.05    2.14             0.01    5.92             0.06    2.17
+    40  GUESSRHO ...............      0.05    2.15             0.00    2.79             0.06    1.96
+     5  ENERGY  ................      2.98   15.05             0.06    5.22             3.11   12.89
+     5  GRADIENTS ..............      0.91    4.58             0.14   12.15             1.31    5.42
+     1  CHARGE  ................      0.02    0.02             0.01    0.09             0.24    0.20
+     1  CM5CHARGES .............      0.01    0.01             0.00    0.07             0.14    0.12
+     1  HIRSH   ................      0.00    0.00             0.00    0.00             0.00    0.00
+     1  DOS     ................      0.01    0.01             0.00    0.07             0.58    0.48
+
+AMS application finished. Exiting.
+NORMAL TERMINATION
+     Total cpu time:      99.19
+  Total system time:       5.98
+ Total elapsed time:     123.26

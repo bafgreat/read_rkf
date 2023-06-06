@@ -1,0 +1,342 @@
+<May25-2023> <14:29:59>  AMS 2021.105  RunTime: May25-2023 14:29:59  ShM Nodes: 1  Procs: 1
+<May25-2023> <14:30:01>  BAND 2021.105  RunTime: May25-2023 14:30:01  ShM Nodes: 1  Procs: 1
+<May25-2023> <14:30:03>  Iteration 1
+<May25-2023> <14:30:03>  request quiet
+<May25-2023> <14:30:03>  All basis functions smoothly confined at radius: 10.0
+<May25-2023> <14:30:04>  WARNING: for this functional Vxc will not be calculated. LDA potential will be used for core orbitals.
+<May25-2023> <14:30:04>  >>>> RADIAL
+<May25-2023> <14:30:05>  Internal error in SymmetryUtils: NO INDEPENDENT BASIS. PNTGRP
+<May25-2023> <14:30:05>  Failed to detect system symmetry. Falling back to NOSYM...
+<May25-2023> <14:30:05>  >>>> POINTS
+<May25-2023> <14:30:06>  >>>> KPNT
+<May25-2023> <14:30:06>  >>>> CELLS
+<May25-2023> <14:30:06>  >>>> NUMGRD
+<May25-2023> <14:30:06>  >>>> ELSTAT
+<May25-2023> <14:30:06>  >>>> ATMFNC
+<May25-2023> <14:30:06>  CalcAtomicProperties
+<May25-2023> <14:30:15>  >>>> PREPAREBAS
+<May25-2023> <14:30:15>  ------ K ..   1
+<May25-2023> <14:30:15>  >>>> PREPAREHAM
+<May25-2023> <14:30:15>  ------ K ..   1
+<May25-2023> <14:30:15>  >>>> PREPAREFIT
+<May25-2023> <14:30:15>  calling scf
+<May25-2023> <14:30:15>  start of SCF loop
+<May25-2023> <14:30:15>  initial density from psi
+<May25-2023> <14:30:16>  ------ K ..   1
+<May25-2023> <14:30:17>  cyc=  0 err=0.00E+00 cpu=   1s ela=   1s
+<May25-2023> <14:30:17>  ------ K ..   1
+<May25-2023> <14:30:18>  cyc=  1 err=3.59E-01 meth=m nvec= 1 mix=0.0750 cpu=   1s ela=   1s fit=2.76E-03
+<May25-2023> <14:30:18>  ------ K ..   1
+<May25-2023> <14:30:19>  cyc=  2 err=3.36E-01 meth=d nvec= 2 mix=0.2000 cpu=   1s ela=   1s fit=2.02E-03
+<May25-2023> <14:30:19>  ------ K ..   1
+<May25-2023> <14:30:20>  cyc=  3 err=5.42E-02 meth=d nvec= 3 mix=0.2000 cpu=   1s ela=   1s fit=2.07E-03
+<May25-2023> <14:30:20>  ------ K ..   1
+<May25-2023> <14:30:21>  cyc=  4 err=1.79E-02 meth=d nvec= 4 mix=0.2000 cpu=   1s ela=   1s fit=2.16E-03
+<May25-2023> <14:30:21>  ------ K ..   1
+<May25-2023> <14:30:22>  cyc=  5 err=1.25E-02 meth=d nvec= 4 mix=0.2200 cpu=   1s ela=   1s fit=2.14E-03
+<May25-2023> <14:30:22>  ------ K ..   1
+<May25-2023> <14:30:23>  cyc=  6 err=1.38E-03 meth=d nvec= 4 mix=0.2420 cpu=   1s ela=   1s fit=2.15E-03
+<May25-2023> <14:30:23>  ------ K ..   1
+<May25-2023> <14:30:23>  HALFWAY
+<May25-2023> <14:30:24>  cyc=  7 err=6.77E-04 meth=d nvec= 4 mix=0.2662 cpu=   1s ela=   1s fit=2.14E-03
+<May25-2023> <14:30:24>  ------ K ..   1
+<May25-2023> <14:30:25>  cyc=  8 err=3.21E-04 meth=d nvec= 4 mix=0.2928 cpu=   1s ela=   1s fit=2.14E-03
+<May25-2023> <14:30:25>  ------ K ..   1
+<May25-2023> <14:30:26>  cyc=  9 err=1.91E-04 meth=d nvec= 4 mix=0.3221 cpu=   1s ela=   1s fit=2.15E-03
+<May25-2023> <14:30:26>  ------ K ..   1
+<May25-2023> <14:30:27>  cyc= 10 err=3.06E-05 meth=d nvec= 4 mix=0.3543 cpu=   1s ela=   1s fit=2.15E-03
+<May25-2023> <14:30:27>  ------ K ..   1
+<May25-2023> <14:30:28>  cyc= 11 err=1.37E-05 meth=d nvec= 5 mix=0.3543 cpu=   1s ela=   1s fit=2.15E-03
+<May25-2023> <14:30:28>  ------ K ..   1
+<May25-2023> <14:30:29>  SCF CONVERGENCE
+<May25-2023> <14:30:29>  cyc= 12 err=1.55E-06 meth=d nvec= 4 mix=0.3897 cpu=   1s ela=   1s fit=2.15E-03
+<May25-2023> <14:30:29>  ------ K ..   1
+<May25-2023> <14:30:30>  rhopot:last
+<May25-2023> <14:30:30>  cyc= 13 err=1.55E-06 meth=d nvec= 1 mix=1.0000 cpu=   1s ela=   1s fit=2.15E-03
+<May25-2023> <14:30:30>  ------ K ..   1
+<May25-2023> <14:30:30>  ------ K ..   1
+<May25-2023> <14:30:33>  ENERGY OF FORMATION:   -0.5645 A.U.
+<May25-2023> <14:30:33>                        -15.3619 E.V.
+<May25-2023> <14:30:33>                       -354.2546 KCAL/MOL
+<May25-2023> <14:30:33>  >>>> GRADIENTS
+<May25-2023> <14:30:33>  overlap matrices
+<May25-2023> <14:30:33>  nuc. grad. rho
+<May25-2023> <14:30:33>  ------ K ..   1
+<May25-2023> <14:30:34>  nuc. grad. el. stat.
+<May25-2023> <14:30:34>  nuc. grad. kin.
+<May25-2023> <14:30:34>  nuc. grad. pulay term
+<May25-2023> <14:30:34>  nuc. grad. exc.
+<May25-2023> <14:30:34>  nuc. grad. dispersion
+<May25-2023> <14:30:34>  copy T(V/VOC)
+<May25-2023> <14:30:34>  copy eigensystem
+<May25-2023> <14:30:34>  current energy                               -0.56454064 Hartree
+<May25-2023> <14:30:34>  energy change                      -0.56454064     0.00003000    F
+<May25-2023> <14:30:34>  constrained gradient max            0.05268064     0.00100000    F
+<May25-2023> <14:30:34>  constrained gradient rms            0.03292111     0.00066667    F
+<May25-2023> <14:30:34>  gradient max                        0.05268064
+<May25-2023> <14:30:34>  gradient rms                        0.03292111
+<May25-2023> <14:30:34>  cart. step max                      0.02116321     0.01000000    F
+<May25-2023> <14:30:34>  cart. step rms                      0.01131808     0.00666667    F
+<May25-2023> <14:30:34>  Iteration 2
+<May25-2023> <14:30:34>  request quiet
+<May25-2023> <14:30:34>  WARNING: for this functional Vxc will not be calculated. LDA potential will be used for core orbitals.
+<May25-2023> <14:30:35>  >>>> RADIAL
+<May25-2023> <14:30:35>  Internal error in SymmetryUtils: NO INDEPENDENT BASIS. PNTGRP
+<May25-2023> <14:30:35>  Failed to detect system symmetry. Falling back to NOSYM...
+<May25-2023> <14:30:35>  >>>> POINTS
+<May25-2023> <14:30:35>  >>>> KPNT
+<May25-2023> <14:30:35>  >>>> CELLS
+<May25-2023> <14:30:35>  >>>> NUMGRD
+<May25-2023> <14:30:35>  >>>> ELSTAT
+<May25-2023> <14:30:35>  >>>> ATMFNC
+<May25-2023> <14:30:35>  CalcAtomicProperties
+<May25-2023> <14:30:43>  >>>> PREPAREBAS
+<May25-2023> <14:30:43>  ------ K ..   1
+<May25-2023> <14:30:43>  >>>> PREPAREHAM
+<May25-2023> <14:30:43>  ------ K ..   1
+<May25-2023> <14:30:43>  >>>> PREPAREFIT
+<May25-2023> <14:30:43>  calling scf
+<May25-2023> <14:30:43>  start of SCF loop
+<May25-2023> <14:30:43>  reusing gIrho from previous scf
+<May25-2023> <14:30:43>  restarting scf (from orbitals)
+<May25-2023> <14:30:44>  ------ K ..   1
+<May25-2023> <14:30:44>  cyc=  0 err=1.55E-06 cpu=   1s ela=   1s
+<May25-2023> <14:30:44>  reusing convergence settings from previous SCF
+<May25-2023> <14:30:45>  ------ K ..   1
+<May25-2023> <14:30:45>  cyc=  1 err=7.83E-03 meth=m nvec= 1 mix=0.0825 cpu=   1s ela=   1s fit=2.24E-03
+<May25-2023> <14:30:46>  ------ K ..   1
+<May25-2023> <14:30:46>  cyc=  2 err=7.14E-03 meth=d nvec= 2 mix=0.3897 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:30:47>  ------ K ..   1
+<May25-2023> <14:30:47>  HALFWAY
+<May25-2023> <14:30:47>  cyc=  3 err=9.52E-04 meth=d nvec= 3 mix=0.3897 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:30:48>  ------ K ..   1
+<May25-2023> <14:30:48>  cyc=  4 err=3.65E-04 meth=d nvec= 4 mix=0.3897 cpu=   1s ela=   1s fit=2.30E-03
+<May25-2023> <14:30:49>  ------ K ..   1
+<May25-2023> <14:30:49>  cyc=  5 err=1.10E-04 meth=d nvec= 4 mix=0.4287 cpu=   1s ela=   1s fit=2.30E-03
+<May25-2023> <14:30:50>  ------ K ..   1
+<May25-2023> <14:30:50>  cyc=  6 err=2.55E-05 meth=d nvec= 4 mix=0.4716 cpu=   1s ela=   1s fit=2.30E-03
+<May25-2023> <14:30:51>  ------ K ..   1
+<May25-2023> <14:30:51>  cyc=  7 err=3.53E-06 meth=d nvec= 4 mix=0.5187 cpu=   1s ela=   1s fit=2.30E-03
+<May25-2023> <14:30:52>  ------ K ..   1
+<May25-2023> <14:30:52>  SCF CONVERGENCE
+<May25-2023> <14:30:52>  cyc=  8 err=1.54E-06 meth=d nvec= 4 mix=0.5706 cpu=   1s ela=   1s fit=2.30E-03
+<May25-2023> <14:30:53>  ------ K ..   1
+<May25-2023> <14:30:53>  rhopot:last
+<May25-2023> <14:30:53>  cyc=  9 err=1.54E-06 meth=d nvec= 1 mix=1.0000 cpu=   1s ela=   1s fit=2.30E-03
+<May25-2023> <14:30:53>  ------ K ..   1
+<May25-2023> <14:30:53>  ------ K ..   1
+<May25-2023> <14:30:56>  ENERGY OF FORMATION:   -0.5660 A.U.
+<May25-2023> <14:30:56>                        -15.4027 E.V.
+<May25-2023> <14:30:56>                       -355.1950 KCAL/MOL
+<May25-2023> <14:30:56>  >>>> GRADIENTS
+<May25-2023> <14:30:56>  overlap matrices
+<May25-2023> <14:30:56>  nuc. grad. rho
+<May25-2023> <14:30:56>  ------ K ..   1
+<May25-2023> <14:30:57>  nuc. grad. el. stat.
+<May25-2023> <14:30:57>  nuc. grad. kin.
+<May25-2023> <14:30:57>  nuc. grad. pulay term
+<May25-2023> <14:30:57>  nuc. grad. exc.
+<May25-2023> <14:30:58>  nuc. grad. dispersion
+<May25-2023> <14:30:58>  copy T(V/VOC)
+<May25-2023> <14:30:58>  copy eigensystem
+<May25-2023> <14:30:58>  current energy                               -0.56603918 Hartree
+<May25-2023> <14:30:58>  energy change                      -0.00149854     0.00003000    F
+<May25-2023> <14:30:58>  constrained gradient max            0.00773169     0.00100000    F
+<May25-2023> <14:30:58>  constrained gradient rms            0.00450913     0.00066667    F
+<May25-2023> <14:30:58>  gradient max                        0.00773169
+<May25-2023> <14:30:58>  gradient rms                        0.00450913
+<May25-2023> <14:30:58>  cart. step max                      0.00354236     0.01000000    T
+<May25-2023> <14:30:58>  cart. step rms                      0.00213648     0.00666667    T
+<May25-2023> <14:30:58>  Iteration 3
+<May25-2023> <14:30:58>  request quiet
+<May25-2023> <14:30:58>  WARNING: for this functional Vxc will not be calculated. LDA potential will be used for core orbitals.
+<May25-2023> <14:30:58>  >>>> RADIAL
+<May25-2023> <14:30:58>  Internal error in SymmetryUtils: NO INDEPENDENT BASIS. PNTGRP
+<May25-2023> <14:30:58>  Failed to detect system symmetry. Falling back to NOSYM...
+<May25-2023> <14:30:58>  >>>> POINTS
+<May25-2023> <14:30:58>  >>>> KPNT
+<May25-2023> <14:30:58>  >>>> CELLS
+<May25-2023> <14:30:58>  >>>> NUMGRD
+<May25-2023> <14:30:58>  >>>> ELSTAT
+<May25-2023> <14:30:58>  >>>> ATMFNC
+<May25-2023> <14:30:58>  CalcAtomicProperties
+<May25-2023> <14:31:06>  >>>> PREPAREBAS
+<May25-2023> <14:31:06>  ------ K ..   1
+<May25-2023> <14:31:06>  >>>> PREPAREHAM
+<May25-2023> <14:31:06>  ------ K ..   1
+<May25-2023> <14:31:06>  >>>> PREPAREFIT
+<May25-2023> <14:31:06>  calling scf
+<May25-2023> <14:31:06>  start of SCF loop
+<May25-2023> <14:31:06>  reusing gIrho from previous scf
+<May25-2023> <14:31:06>  restarting scf (from orbitals)
+<May25-2023> <14:31:07>  ------ K ..   1
+<May25-2023> <14:31:07>  cyc=  0 err=1.54E-06 cpu=   1s ela=   1s
+<May25-2023> <14:31:07>  reusing convergence settings from previous SCF
+<May25-2023> <14:31:08>  ------ K ..   1
+<May25-2023> <14:31:08>  cyc=  1 err=1.80E-03 meth=m nvec= 1 mix=0.0908 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:09>  ------ K ..   1
+<May25-2023> <14:31:09>  cyc=  2 err=1.62E-03 meth=d nvec= 2 mix=0.5706 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:31:10>  ------ K ..   1
+<May25-2023> <14:31:10>  HALFWAY
+<May25-2023> <14:31:10>  cyc=  3 err=3.27E-04 meth=d nvec= 3 mix=0.5706 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:31:11>  ------ K ..   1
+<May25-2023> <14:31:11>  cyc=  4 err=7.16E-05 meth=d nvec= 4 mix=0.5706 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:31:12>  ------ K ..   1
+<May25-2023> <14:31:12>  cyc=  5 err=2.12E-05 meth=d nvec= 4 mix=0.6277 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:31:13>  ------ K ..   1
+<May25-2023> <14:31:13>  cyc=  6 err=5.22E-06 meth=d nvec= 4 mix=0.6905 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:31:14>  ------ K ..   1
+<May25-2023> <14:31:14>  SCF CONVERGENCE
+<May25-2023> <14:31:14>  cyc=  7 err=3.83E-07 meth=d nvec= 4 mix=0.7595 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:31:15>  ------ K ..   1
+<May25-2023> <14:31:15>  rhopot:last
+<May25-2023> <14:31:15>  cyc=  8 err=3.83E-07 meth=d nvec= 1 mix=1.0000 cpu=   1s ela=   1s fit=2.29E-03
+<May25-2023> <14:31:15>  ------ K ..   1
+<May25-2023> <14:31:15>  ------ K ..   1
+<May25-2023> <14:31:18>  ENERGY OF FORMATION:   -0.5660 A.U.
+<May25-2023> <14:31:18>                        -15.4022 E.V.
+<May25-2023> <14:31:18>                       -355.1839 KCAL/MOL
+<May25-2023> <14:31:18>  >>>> GRADIENTS
+<May25-2023> <14:31:18>  overlap matrices
+<May25-2023> <14:31:18>  nuc. grad. rho
+<May25-2023> <14:31:18>  ------ K ..   1
+<May25-2023> <14:31:19>  nuc. grad. el. stat.
+<May25-2023> <14:31:19>  nuc. grad. kin.
+<May25-2023> <14:31:19>  nuc. grad. pulay term
+<May25-2023> <14:31:19>  nuc. grad. exc.
+<May25-2023> <14:31:20>  nuc. grad. dispersion
+<May25-2023> <14:31:20>  copy T(V/VOC)
+<May25-2023> <14:31:20>  copy eigensystem
+<May25-2023> <14:31:20>  current energy                               -0.56602151 Hartree
+<May25-2023> <14:31:20>  energy change                       0.00001767     0.00003000    T
+<May25-2023> <14:31:20>  constrained gradient max            0.00119189     0.00100000    F
+<May25-2023> <14:31:20>  constrained gradient rms            0.00067172     0.00066667    F
+<May25-2023> <14:31:20>  gradient max                        0.00119189
+<May25-2023> <14:31:20>  gradient rms                        0.00067172
+<May25-2023> <14:31:20>  cart. step max                      0.00191281     0.01000000    T
+<May25-2023> <14:31:20>  cart. step rms                      0.00105770     0.00666667    T
+<May25-2023> <14:31:20>  Iteration 4
+<May25-2023> <14:31:20>  request quiet
+<May25-2023> <14:31:20>  WARNING: for this functional Vxc will not be calculated. LDA potential will be used for core orbitals.
+<May25-2023> <14:31:20>  >>>> RADIAL
+<May25-2023> <14:31:20>  Internal error in SymmetryUtils: NO INDEPENDENT BASIS. PNTGRP
+<May25-2023> <14:31:20>  Failed to detect system symmetry. Falling back to NOSYM...
+<May25-2023> <14:31:20>  >>>> POINTS
+<May25-2023> <14:31:20>  >>>> KPNT
+<May25-2023> <14:31:20>  >>>> CELLS
+<May25-2023> <14:31:20>  >>>> NUMGRD
+<May25-2023> <14:31:20>  >>>> ELSTAT
+<May25-2023> <14:31:20>  >>>> ATMFNC
+<May25-2023> <14:31:20>  CalcAtomicProperties
+<May25-2023> <14:31:28>  >>>> PREPAREBAS
+<May25-2023> <14:31:28>  ------ K ..   1
+<May25-2023> <14:31:28>  >>>> PREPAREHAM
+<May25-2023> <14:31:28>  ------ K ..   1
+<May25-2023> <14:31:28>  >>>> PREPAREFIT
+<May25-2023> <14:31:28>  calling scf
+<May25-2023> <14:31:28>  start of SCF loop
+<May25-2023> <14:31:28>  reusing gIrho from previous scf
+<May25-2023> <14:31:28>  restarting scf (from orbitals)
+<May25-2023> <14:31:29>  ------ K ..   1
+<May25-2023> <14:31:29>  cyc=  0 err=3.83E-07 cpu=   1s ela=   1s
+<May25-2023> <14:31:29>  reusing convergence settings from previous SCF
+<May25-2023> <14:31:30>  ------ K ..   1
+<May25-2023> <14:31:30>  HALFWAY
+<May25-2023> <14:31:30>  cyc=  1 err=5.93E-04 meth=m nvec= 1 mix=0.0998 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:31>  ------ K ..   1
+<May25-2023> <14:31:31>  cyc=  2 err=5.23E-04 meth=d nvec= 2 mix=0.7595 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:32>  ------ K ..   1
+<May25-2023> <14:31:32>  cyc=  3 err=1.86E-04 meth=d nvec= 3 mix=0.7595 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:33>  ------ K ..   1
+<May25-2023> <14:31:33>  cyc=  4 err=1.14E-05 meth=d nvec= 4 mix=0.7595 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:34>  ------ K ..   1
+<May25-2023> <14:31:34>  cyc=  5 err=3.45E-06 meth=d nvec= 4 mix=0.7756 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:35>  ------ K ..   1
+<May25-2023> <14:31:35>  SCF CONVERGENCE
+<May25-2023> <14:31:35>  cyc=  6 err=2.79E-07 meth=d nvec= 3 mix=0.8442 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:36>  ------ K ..   1
+<May25-2023> <14:31:36>  rhopot:last
+<May25-2023> <14:31:36>  cyc=  7 err=2.79E-07 meth=d nvec= 1 mix=1.0000 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:36>  ------ K ..   1
+<May25-2023> <14:31:36>  ------ K ..   1
+<May25-2023> <14:31:39>  ENERGY OF FORMATION:   -0.5660 A.U.
+<May25-2023> <14:31:39>                        -15.4018 E.V.
+<May25-2023> <14:31:39>                       -355.1743 KCAL/MOL
+<May25-2023> <14:31:39>  >>>> GRADIENTS
+<May25-2023> <14:31:39>  overlap matrices
+<May25-2023> <14:31:39>  nuc. grad. rho
+<May25-2023> <14:31:39>  ------ K ..   1
+<May25-2023> <14:31:40>  nuc. grad. el. stat.
+<May25-2023> <14:31:40>  nuc. grad. kin.
+<May25-2023> <14:31:40>  nuc. grad. pulay term
+<May25-2023> <14:31:40>  nuc. grad. exc.
+<May25-2023> <14:31:40>  nuc. grad. dispersion
+<May25-2023> <14:31:40>  copy T(V/VOC)
+<May25-2023> <14:31:40>  copy eigensystem
+<May25-2023> <14:31:40>  current energy                               -0.56600626 Hartree
+<May25-2023> <14:31:40>  energy change                       0.00001525     0.00003000    T
+<May25-2023> <14:31:40>  constrained gradient max            0.00015732     0.00100000    T
+<May25-2023> <14:31:40>  constrained gradient rms            0.00008843     0.00066667    T
+<May25-2023> <14:31:40>  gradient max                        0.00015732
+<May25-2023> <14:31:40>  gradient rms                        0.00008843
+<May25-2023> <14:31:40>  cart. step max                      0.00022738     0.01000000    T
+<May25-2023> <14:31:40>  cart. step rms                      0.00012205     0.00666667    T
+<May25-2023> <14:31:41>  Geometry optimization converged
+<May25-2023> <14:31:41>  WARNING: for this functional Vxc will not be calculated. LDA potential will be used for core orbitals.
+<May25-2023> <14:31:41>  >>>> RADIAL
+<May25-2023> <14:31:41>  Internal error in SymmetryUtils: NO INDEPENDENT BASIS. PNTGRP
+<May25-2023> <14:31:41>  Failed to detect system symmetry. Falling back to NOSYM...
+<May25-2023> <14:31:41>  >>>> POINTS
+<May25-2023> <14:31:41>  >>>> KPNT
+<May25-2023> <14:31:41>  >>>> CELLS
+<May25-2023> <14:31:41>  >>>> NUMGRD
+<May25-2023> <14:31:41>  >>>> ELSTAT
+<May25-2023> <14:31:41>  >>>> ATMFNC
+<May25-2023> <14:31:41>  CalcAtomicProperties
+<May25-2023> <14:31:49>  >>>> PREPAREBAS
+<May25-2023> <14:31:49>  ------ K ..   1
+<May25-2023> <14:31:49>  >>>> PREPAREHAM
+<May25-2023> <14:31:49>  ------ K ..   1
+<May25-2023> <14:31:49>  >>>> PREPAREFIT
+<May25-2023> <14:31:49>  calling scf
+<May25-2023> <14:31:49>  start of SCF loop
+<May25-2023> <14:31:49>  reusing gIrho from previous scf
+<May25-2023> <14:31:49>  restarting scf (from orbitals)
+<May25-2023> <14:31:50>  ------ K ..   1
+<May25-2023> <14:31:50>  cyc=  0 err=2.79E-07 cpu=   1s ela=   1s
+<May25-2023> <14:31:50>  reusing convergence settings from previous SCF
+<May25-2023> <14:31:51>  ------ K ..   1
+<May25-2023> <14:31:51>  HALFWAY
+<May25-2023> <14:31:51>  cyc=  1 err=1.03E-07 meth=m nvec= 1 mix=0.1098 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:52>  ------ K ..   1
+<May25-2023> <14:31:52>  SCF CONVERGENCE
+<May25-2023> <14:31:52>  cyc=  2 err=7.41E-08 meth=d nvec= 2 mix=0.8442 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:53>  ------ K ..   1
+<May25-2023> <14:31:53>  rhopot:last
+<May25-2023> <14:31:53>  cyc=  3 err=7.41E-08 meth=d nvec= 1 mix=1.0000 cpu=   1s ela=   1s fit=2.28E-03
+<May25-2023> <14:31:53>  ------ K ..   1
+<May25-2023> <14:31:53>  ------ K ..   1
+<May25-2023> <14:31:56>  ENERGY OF FORMATION:   -0.5660 A.U.
+<May25-2023> <14:31:56>                        -15.4018 E.V.
+<May25-2023> <14:31:56>                       -355.1743 KCAL/MOL
+<May25-2023> <14:31:56>  >>>> GRADIENTS
+<May25-2023> <14:31:56>  overlap matrices
+<May25-2023> <14:31:57>  nuc. grad. rho
+<May25-2023> <14:31:57>  ------ K ..   1
+<May25-2023> <14:31:57>  nuc. grad. el. stat.
+<May25-2023> <14:31:57>  nuc. grad. kin.
+<May25-2023> <14:31:57>  nuc. grad. pulay term
+<May25-2023> <14:31:57>  nuc. grad. exc.
+<May25-2023> <14:31:58>  nuc. grad. dispersion
+<May25-2023> <14:31:58>  >>>> CHARGE
+<May25-2023> <14:31:58>  >>>> HIRSH
+<May25-2023> <14:31:58>  >>>> CM5CHARGES
+<May25-2023> <14:31:58>  FERMI ENERGY:          -0.0556 A.U.
+<May25-2023> <14:31:58>                         -1.5118 E.V
+<May25-2023> <14:31:58>  Band gap:               0.2842 A.U.
+<May25-2023> <14:31:58>                          7.7342 E.V
+<May25-2023> <14:31:58>  >>>> DOS
+<May25-2023> <14:31:58>  Integrate over delta E
+<May25-2023> <14:31:59>  copy T(V/VOC)
+<May25-2023> <14:31:59>  copy eigensystem
+<May25-2023> <14:31:59>  NORMAL TERMINATION
